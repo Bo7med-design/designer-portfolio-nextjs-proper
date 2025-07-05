@@ -1,0 +1,180 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# Testing
+/coverage
+
+# Next.js
+/.next/
+/out/
+
+# Production
+/build
+
+# Misc
+.DS_Store
+*.pem
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local env files
+.env*.local
+.env
+.env.development
+.env.production
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+
+# Nuxt.js build / generate output
+.nuxt
+dist
+
+# Storybook build outputs
+.out
+.storybook-out
+
+# Temporary folders
+tmp/
+temp/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Local development files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Bundle analyzer
+.next-bundle-analyzer/
+
+# Lighthouse reports
+lighthouse-report.html
+*.report.html
+*.report.json
+
+# Performance analysis files
+ANALYSIS_REPORT.md
+DEPLOYMENT.md
+ELEGANT_IMPROVEMENTS_SUMMARY.md
+FINAL_STATUS.md
+FIXED_IMPROVEMENTS_SUMMARY.md
+FIXES.md
+IMPLEMENTATION_COMPLETE.md
+IMPROVEMENTS_SUMMARY.md
+MAJOR_IMPROVEMENTS_SUMMARY.md
+OPTIMIZATION_REPORT.md
+PROJECTJOURNEY_FIXES.md
+QUICK_FIXES.md
+REBUILD_PLAN.md
+SETUP_GUIDE.md
+TECHNICAL_REPLACEMENT_SUMMARY.md
+unused-exports.txt
+build-log.txt
+chromewebdata_*.report.html
+localhost_*.json
+localhost_*.report.html
+
+# Development documentation files
+ANIMATION_AND_FONT_UPDATES.md
+COMPREHENSIVE_CODE_REVIEW.md
+COMPREHENSIVE_FILE_ANALYSIS.md
+DEPENDENCY_UPDATE_STATUS.md
+FINAL_ANIMATION_FONT_UPDATES.md
+FINAL_COMPREHENSIVE_ANALYSIS.md
+FINAL_FIXES_SUMMARY.md
+FIXES_SUMMARY.md
+HYDRATION_FIXES.md
+IMPLEMENTATION_SUMMARY.md
+PERFORMANCE_FIXES_SUMMARY.md
+PERFORMANCE_OPTIMIZATION_REPORT.md
+REBUILD_STATUS.md
+
+# Public directory cleanup
+public/README_RESUME.md
+
+# Keep essential documentation
+!README.md
+!LICENSE
+!CHANGELOG.md
+!CONTRIBUTING.md
