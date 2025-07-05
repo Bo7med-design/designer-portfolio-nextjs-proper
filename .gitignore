@@ -13,6 +13,9 @@
 /.next/
 /out/
 
+# GitHub Pages build output
+out/
+
 # Production
 /build
 

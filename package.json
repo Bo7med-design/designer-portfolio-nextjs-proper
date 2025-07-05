@@ -10,7 +10,9 @@
     "start": "next start",
     "lint": "next lint",
     "analyze": "cross-env ANALYZE=true next build",
-    "type-check": "tsc --noEmit"
+    "type-check": "tsc --noEmit",
+    "export": "cross-env GITHUB_PAGES=true next build",
+    "deploy": "npm run export && touch out/.nojekyll && echo 'bo7med-design.github.io' > out/CNAME"
   },
   "dependencies": {
     "critters": "^0.0.23",
