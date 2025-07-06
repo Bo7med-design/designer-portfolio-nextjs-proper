@@ -11,7 +11,7 @@
     "lint": "next lint",
     "analyze": "cross-env ANALYZE=true next build",
     "type-check": "tsc --noEmit",
-    "export": "cross-env GITHUB_PAGES=true next build",
+    "export": "cross-env GITHUB_PAGES=true node scripts/generate-css.js && next build",
     "deploy": "npm run export && touch out/.nojekyll && echo 'bo7med-design.github.io' > out/CNAME"
   },
   "dependencies": {

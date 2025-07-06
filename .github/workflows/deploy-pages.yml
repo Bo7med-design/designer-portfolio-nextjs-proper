@@ -52,6 +52,11 @@ jobs:
       - name: Install dependencies
         run: npm ci
         
+      - name: Generate CSS for GitHub Pages
+        run: node scripts/generate-css.js
+        env:
+          GITHUB_PAGES: true
+          
       - name: Build with Next.js
         run: npm run export
         env:

@@ -14,7 +14,7 @@ const nextConfig = {
     trailingSlash: true,
     skipTrailingSlashRedirect: true,
     distDir: 'out',
-    assetPrefix: `/${repoName}/`,
+    assetPrefix: `/${repoName}`,
     basePath: `/${repoName}`,
   }),
 

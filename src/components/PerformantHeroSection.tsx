@@ -3,6 +3,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
+import { getAssetPath } from '@/utils/assetPath';
 
 const PerformantHeroSection: React.FC = () => {
   // Animations are handled by Framer Motion directly
@@ -20,7 +21,7 @@ const PerformantHeroSection: React.FC = () => {
         >
           <div className="absolute inset-0 w-full h-full">
             <Image
-              src="/hero-image.webp"
+              src={getAssetPath("/hero-image.webp")}
               alt="Ahmed El-Baghdady - Graphic Designer"
               fill
               priority

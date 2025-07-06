@@ -3,6 +3,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { LazyMotionWrapper, MotionDiv } from './motion/LazyMotion';
+import { getAssetPath } from '@/utils/assetPath';
 
 const OptimizedHeroSection: React.FC = () => {
   return (
@@ -19,7 +20,7 @@ const OptimizedHeroSection: React.FC = () => {
           >
             <div className="hero-image">
               <Image
-                src="/hero-image.webp"
+                src={getAssetPath("/hero-image.webp")}
                 alt="Ahmed El-Baghdady - Graphic Designer"
                 fill
                 priority

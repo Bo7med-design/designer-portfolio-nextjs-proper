@@ -3,6 +3,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
+import { getAssetPath } from '@/utils/assetPath';
 
 const HeroSection: React.FC = () => {
   return (
@@ -18,7 +19,7 @@ const HeroSection: React.FC = () => {
         >
           <div className="absolute inset-0 w-full h-full">
             <Image
-              src="/hero-image.webp"
+              src={getAssetPath("/hero-image.webp")}
               alt="Ahmed El-Baghdady - Graphic Designer"
               fill
               priority
