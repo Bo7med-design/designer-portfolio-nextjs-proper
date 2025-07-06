@@ -3,7 +3,7 @@
 /* Font faces - Critical */
 @font-face {
   font-family: 'Anton';
-  src: url('/designer-portfolio-nextjs-proper/fonts/Anton-Regular.woff2') format('woff2');
+  src: url('/designer-portfolio-nextjs-proper/fonts/anton-regular.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -11,7 +11,7 @@
 
 @font-face {
   font-family: 'Readex Pro';
-  src: url('/designer-portfolio-nextjs-proper/fonts/ReadexPro-VariableFont_HEXP,wght.woff2') format('woff2-variations');
+  src: url('/designer-portfolio-nextjs-proper/fonts/readexpro-variablefonthexpwght.woff2') format('woff2-variations');
   font-weight: 200 700;
   font-style: normal;
   font-display: swap;

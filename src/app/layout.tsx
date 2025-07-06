@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     siteName: 'Ahmed El-Baghdady Portfolio',
     images: [
       {
-        url: '/hero-image.webp',
+        url: '/designer-portfolio-nextjs-proper/hero-image.webp',
         width: 1200,
         height: 630,
         alt: 'Ahmed El-Baghdady - Graphic Designer Portfolio',
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Ahmed El-Baghdady | Graphic Designer & Art Director',
     description: 'Transforming brands through exceptional visual storytelling and innovative design solutions.',
-    images: ['/hero-image.webp'],
+    images: ['/designer-portfolio-nextjs-proper/hero-image.webp'],
   },
   robots: {
     index: true,
@@ -64,21 +64,21 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         
         {/* Critical Font Preloading - Highest Priority */}
-        <link rel="preload" href="/fonts/Anton-Regular.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
-        <link rel="preload" href="/fonts/ReadexPro-VariableFont_HEXP,wght.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
+        <link rel="preload" href="/designer-portfolio-nextjs-proper/fonts/anton-regular.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
+        <link rel="preload" href="/designer-portfolio-nextjs-proper/fonts/readexpro-variablefonthexpwght.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
         
         {/* Critical Image Preloading - LCP Element */}
-        <link rel="preload" href="/hero-image.webp" as="image" type="image/webp" fetchPriority="high" />
+        <link rel="preload" href="/designer-portfolio-nextjs-proper/hero-image.webp" as="image" type="image/webp" fetchPriority="high" />
         
         {/* PWA & Performance */}
-        <link rel="manifest" href="/manifest.json" />
+        <link rel="manifest" href="/designer-portfolio-nextjs-proper/manifest.json" />
         <meta name="theme-color" content="#000000" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
         
         {/* Favicon */}
-        <link rel="icon" href="/favicon.ico" />
-        <link rel="apple-touch-icon" href="/logo192.png" />
+        <link rel="icon" href="/designer-portfolio-nextjs-proper/favicon.ico" />
+        <link rel="apple-touch-icon" href="/designer-portfolio-nextjs-proper/logo192.png" />
         
         {/* Viewport */}
         <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no" />

@@ -99,12 +99,12 @@ export const socialMediaProjects: ProjectData[] = [
       type: 'Precision barbershop'
     },
     images: [
-      '/zambo/zambo 1.webp',
-      '/zambo/zambo 2.webp',
-      '/zambo/zambo 3.webp',
-      '/zambo/zambo 4.webp',
-      '/zambo/zambo 5.webp',
-      '/zambo/zambo 6.webp',
+      '/zambo/zambo-1.webp',
+      '/zambo/zambo-2.webp',
+      '/zambo/zambo-3.webp',
+      '/zambo/zambo-4.webp',
+      '/zambo/zambo-5.webp',
+      '/zambo/zambo-6.webp',
     ],
     tags: ['Social Media', 'Barbershop', 'Bold Design', 'Red Theme', 'Instagram', 'Facebook']
   },
@@ -128,12 +128,12 @@ export const socialMediaProjects: ProjectData[] = [
       type: 'Modern barbershop'
     },
     images: [
-      '/mondy/mondy 1.webp',
-      '/mondy/mondy 2.webp',
-      '/mondy/mondy 3.webp',
-      '/mondy/mondy 4.webp',
-      '/mondy/mondy 5.webp',
-      '/mondy/mondy 6.webp',
+      '/mondy/mondy-1.webp',
+      '/mondy/mondy-2.webp',
+      '/mondy/mondy-3.webp',
+      '/mondy/mondy-4.webp',
+      '/mondy/mondy-5.webp',
+      '/mondy/mondy-6.webp',
     ],
     tags: ['Social Media', 'Barbershop', 'Modern Design', 'Yellow Theme', 'Instagram', 'Facebook']
   },
@@ -157,10 +157,10 @@ export const socialMediaProjects: ProjectData[] = [
       type: 'Hardcore training gym'
     },
     images: [
-      '/skyforce/sky force 1.webp',
-      '/skyforce/sky force 2.webp',
-      '/skyforce/sky force 3.webp',
-      '/skyforce/sky force 4.webp'
+      '/skyforce/sky-force-1.webp',
+      '/skyforce/sky-force-2.webp',
+      '/skyforce/sky-force-3.webp',
+      '/skyforce/sky-force-4.webp'
     ],
     tags: ['Social Media', 'Gym', 'CrossFit', 'Intense Design', 'Red Theme', 'Instagram']
   },
@@ -184,10 +184,10 @@ export const socialMediaProjects: ProjectData[] = [
       type: 'Motivational gym'
     },
     images: [
-      '/alpha/alpha 1.webp',
-      '/alpha/alpha 2.webp',
-      '/alpha/alpha 3.webp',
-      '/alpha/alpha 4.webp',
+      '/alpha/alpha-1.webp',
+      '/alpha/alpha-2.webp',
+      '/alpha/alpha-3.webp',
+      '/alpha/alpha-4.webp',
     ],
     tags: ['Social Media', 'Gym', 'Motivation', 'Yellow Theme', 'Energy', 'Instagram']
   }
@@ -213,15 +213,15 @@ export const brezelProject: ProjectData = {
     type: 'Restaurant brand'
   },
   images: [
-    '/brezel/brand guidline sheet.webp',
-    '/brezel/brezel design 1.webp',
-    '/brezel/brezel design 2.webp',
-    '/brezel/brezel design 3.webp',
-    '/brezel/brezel design 4.webp',
-    '/brezel/brezel design 5.webp',
-    '/brezel/brezel design 6.webp',
-    '/brezel/left menu.webp',
-    '/brezel/right menu.webp',
+    '/brezel/brand-guidline-sheet.webp',
+    '/brezel/brezel-design-1.webp',
+    '/brezel/brezel-design-2.webp',
+    '/brezel/brezel-design-3.webp',
+    '/brezel/brezel-design-4.webp',
+    '/brezel/brezel-design-5.webp',
+    '/brezel/brezel-design-6.webp',
+    '/brezel/left-menu.webp',
+    '/brezel/right-menu.webp',
   ],
   tags: ['Brand Identity', 'Logo Design', 'Packaging', 'Brand Guidelines', 'Restaurant', 'Complete System'],
   journey: [
@@ -244,7 +244,7 @@ export const brezelProject: ProjectData = {
       title: 'Brand Guidelines Development',
       subtitle: 'Creating Comprehensive Standards',
       description: 'With colors finalized, logo completed, and designs in place, we developed a comprehensive brand guideline sheet to maintain consistency.',
-      image: '/brezel/brand guidline sheet.webp',
+      image: '/brezel/brand-guidline-sheet.webp',
       type: 'result'
     },
     {
@@ -252,7 +252,7 @@ export const brezelProject: ProjectData = {
       title: 'Final Implementation',
       subtitle: 'Complete Brand System',
       description: 'The menu and packaging have been finalized, bringing the brand system together.',
-      image: '/brezel/left menu.webp',
+      image: '/brezel/left-menu.webp',
       type: 'showcase'
     }
   ]
@@ -278,9 +278,9 @@ export const palmProject: ProjectData = {
     type: 'Fashion brand'
   },
   images: [
-    '/PALM1/PALM1-1.webp',
-    '/PALM2/PALM2-1.webp',
-    '/PALM3/PALM3-1.webp',
+    '/PALM1/palm1-1.webp',
+    '/PALM2/palm2-1.webp',
+    '/PALM3/palm3-1.webp',
   ],
   tags: ['Fashion Design', 'Clothing', 'Collections', 'Apparel', 'Brand Storytelling'],
   collections: [
@@ -289,11 +289,11 @@ export const palmProject: ProjectData = {
       title: 'PALM Collection 1',
       description: 'First collection showcasing modern streetwear aesthetics',
       images: [
-        '/PALM1/PALM1-1.webp',
-        '/PALM1/PALM1-2.webp',
-        '/PALM1/PALM1-3.webp',
-        '/PALM1/PALM1-4.webp',
-        '/PALM1/PALM1-5.webp',
+        '/PALM1/palm1-1.webp',
+        '/PALM1/palm1-2.webp',
+        '/PALM1/palm1-3.webp',
+        '/PALM1/palm1-4.webp',
+        '/PALM1/palm1-5.webp',
       ]
     },
     {
@@ -301,13 +301,13 @@ export const palmProject: ProjectData = {
       title: 'PALM Collection 2',
       description: 'Second collection exploring contemporary fashion trends',
       images: [
-        '/PALM2/PALM2-1.webp',
-        '/PALM2/PALM2-2.webp',
-        '/PALM2/PALM2-3.webp',
-        '/PALM2/PALM2-4.webp',
-        '/PALM2/PALM2-5.webp',
-        '/PALM2/PALM2-6.webp',
-        '/PALM2/PALM2-7.webp',
+        '/PALM2/palm2-1.webp',
+        '/PALM2/palm2-2.webp',
+        '/PALM2/palm2-3.webp',
+        '/PALM2/palm2-4.webp',
+        '/PALM2/palm2-5.webp',
+        '/PALM2/palm2-6.webp',
+        '/PALM2/palm2-7.webp',
       ]
     },
     {
@@ -315,12 +315,12 @@ export const palmProject: ProjectData = {
       title: 'PALM Collection 3',
       description: 'Third collection featuring innovative design approaches',
       images: [
-        '/PALM3/PALM3-1.webp',
-        '/PALM3/PALM3-2.webp',
-        '/PALM3/PALM3-3.webp',
-        '/PALM3/PALM3-4.webp',
-        '/PALM3/PALM3-5.webp',
-        '/PALM3/PALM3-6.webp',
+        '/PALM3/palm3-1.webp',
+        '/PALM3/palm3-2.webp',
+        '/PALM3/palm3-3.webp',
+        '/PALM3/palm3-4.webp',
+        '/PALM3/palm3-5.webp',
+        '/PALM3/palm3-6.webp',
       ]
     }
   ]

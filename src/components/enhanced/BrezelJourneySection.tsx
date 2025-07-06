@@ -7,15 +7,15 @@ const BrezelJourneySection: React.FC = () => {
   const [selectedImg, setSelectedImg] = useState<string | null>(null);
 
   const designImages = [
-    { src: "/brezel/brezel design 1.webp", alt: "Brezel Design 1" },
-    { src: "/brezel/brezel design 2.webp", alt: "Brezel Design 2" },
-    { src: "/brezel/brezel design 3.webp", alt: "Brezel Design 3" },
-    { src: "/brezel/brezel design 4.webp", alt: "Brezel Design 4" },
-    { src: "/brezel/brezel design 5.webp", alt: "Brezel Design 5" },
-    { src: "/brezel/brezel design 6.webp", alt: "Brezel Design 6" },
+    { src: "/brezel/brezel-design-1.webp", alt: "Brezel Design 1" },
+    { src: "/brezel/brezel-design-2.webp", alt: "Brezel Design 2" },
+    { src: "/brezel/brezel-design-3.webp", alt: "Brezel Design 3" },
+    { src: "/brezel/brezel-design-4.webp", alt: "Brezel Design 4" },
+    { src: "/brezel/brezel-design-5.webp", alt: "Brezel Design 5" },
+    { src: "/brezel/brezel-design-6.webp", alt: "Brezel Design 6" },
   ];
 
-  const menuImageSrcs = ["/brezel/left menu.webp", "/brezel/right menu.webp"];
+  const menuImageSrcs = ["/brezel/left-menu.webp", "/brezel/right-menu.webp"];
   const allLightboxImages = [...designImages.map(img => img.src), ...menuImageSrcs];
 
   const handleNavigation = (direction: 'next' | 'prev') => {
@@ -84,7 +84,7 @@ const BrezelJourneySection: React.FC = () => {
             </span>
           </motion.h3>
           <div className="w-full h-[800px] overflow-y-scroll border-4 border-gray-800 rounded-lg">
-            <img src="/brezel/brand guidline sheet.webp" alt="Brand Guideline Sheet" className="w-full" />
+            <img src="/brezel/brand-guidline-sheet.webp" alt="Brand Guideline Sheet" className="w-full" />
           </div>
           <p className="text-center text-gray-400 mt-8 max-w-3xl mx-auto">With the colors finalized, the logo completed, and the designs in place, we've also developed a brand guideline sheet to maintain consistency. The menu and packaging have been finalized as well, bringing the full brand system together</p>
         </motion.div>
@@ -146,17 +146,17 @@ const BrezelJourneySection: React.FC = () => {
               className="relative w-1/2 z-10 cursor-pointer"
               whileHover={{ scale: 1.05, rotateZ: -3, x: -30 }}
               transition={{ type: 'spring', stiffness: 300 }}
-              onClick={() => setSelectedImg("/brezel/left menu.webp")}
+              onClick={() => setSelectedImg("/brezel/left-menu.webp")}
             >
-              <img src="/brezel/left menu.webp" alt="Left Menu" className="w-full rounded-lg shadow-2xl shadow-black" />
+              <img src="/brezel/left-menu.webp" alt="Left Menu" className="w-full rounded-lg shadow-2xl shadow-black" />
             </motion.div>
             <motion.div
               className="relative w-1/2 z-0 -ml-12 cursor-pointer"
               whileHover={{ scale: 1.05, rotateZ: 3, x: 30 }}
               transition={{ type: 'spring', stiffness: 300 }}
-              onClick={() => setSelectedImg("/brezel/right menu.webp")}
+              onClick={() => setSelectedImg("/brezel/right-menu.webp")}
             >
-              <img src="/brezel/right menu.webp" alt="Right Menu" className="w-full rounded-lg shadow-2xl shadow-black" />
+              <img src="/brezel/right-menu.webp" alt="Right Menu" className="w-full rounded-lg shadow-2xl shadow-black" />
             </motion.div>
           </div>
         </motion.div>
